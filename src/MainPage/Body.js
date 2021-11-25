@@ -5,8 +5,8 @@ const Body = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route exact path="/:folderName" element={<Main />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/:folderName" element={<Main />} />
       </Routes>
     </BrowserRouter>
   );
